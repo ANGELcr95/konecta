@@ -38,7 +38,10 @@ class VerVideojuegos extends React.Component {
         };
     }
     async componentDidMount() {
+        
         const respuesta = await fetch(`${Constantes.RUTA_API}/obtener_videojuegos.php`);
+        console.log(`${Constantes.RUTA_API}/obtener_videojuegos.php`)
+        console.log(respuesta)
         const videojuegos = await respuesta.json();
         this.setState({
             videojuegos: videojuegos,
