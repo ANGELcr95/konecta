@@ -26,6 +26,6 @@ También tengo canal de YouTube: https://www.youtube.com/channel/UCroP4BTWjfM0Ck
 ------------------------------------------------------------------------------------------------
 */
 const Constantes = {
-    RUTA_API: "https://konecta.vercel.app",
+    RUTA_API: "https://konecta.vercel.app/#",
 };
 export default Constantes;

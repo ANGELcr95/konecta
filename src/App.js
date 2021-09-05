@@ -37,7 +37,7 @@ import {
 function App() {
   return (
     <div>
-      <Nav></Nav>
+      <Nav> </Nav>
       <div className="section">
         <div className="columns">
           <Switch>
